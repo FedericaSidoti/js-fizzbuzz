@@ -11,14 +11,18 @@ for (let i = 0; i < 100; i++) {
         //- stampValue = FizzBuzz
         //- let stampValue = n
     let stampNumber
+    let colorSquare
     if (findMultiplesOfThree === 0 && findMultiplesOfFive === 0) {
         stampNumber ='FizzBuzz'
+        colorSquare = 0
     } 
     else if (findMultiplesOfFive === 0) {
         stampNumber ='Buzz'
+        colorSquare = 1
     } 
     else if (findMultiplesOfThree === 0) {
         stampNumber = 'Fizz'
+        colorSquare = 2
     } 
     else {
         stampNumber = number
@@ -27,6 +31,17 @@ for (let i = 0; i < 100; i++) {
     const divDOMElement = document.getElementById('main-content')
     const squareDOMElement = document.createElement('div')
     squareDOMElement.classList.add('square')
+
+    if (colorSquare === 0) {
+        squareDOMElement.classList.add('square-purple')
+    } 
+    else if (colorSquare === 1) {
+        squareDOMElement.classList.add('square-lilac')
+    }
+    else if (colorSquare === 2) {
+        squareDOMElement.classList.add('square-lilac')
+    }
+    
     squareDOMElement.innerHTML = stampNumber
 
 

@@ -1,5 +1,28 @@
+.grid-custom {
+    display: grid;
+    gap: 10px;
+	grid-template-columns: repeat(8, 1fr);
+    background-color: bisque;
+    padding: 50px; 
+}
+
 .square {
     padding: 20px;
-    background-color: aqua;
-    min-height: 30px;
+    background-color: blueviolet;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square-purple {
+    background-color: purple;
+}
+
+.square-orchid {
+    background-color: darkorchid;
+}
+
+.square-lilac {
+    background-color: rgb(63, 45, 80);
 }
