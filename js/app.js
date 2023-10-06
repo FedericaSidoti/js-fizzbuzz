@@ -10,21 +10,32 @@ for (let i = 0; i < 100; i++) {
     //- SE il modulo 3 del numero è 0 E ANCHE il modulo 5 del numero è 0
         //- stampValue = FizzBuzz
         //- let stampValue = n
+    let stampNumber
     if (findMultiplesOfThree === 0 && findMultiplesOfFive === 0) {
-        let stampNumber = console.log('FizzBuzz') 
+        stampNumber ='FizzBuzz'
     } 
     else if (findMultiplesOfFive === 0) {
-        let stampNumber = console.log('Buzz') 
+        stampNumber ='Buzz'
     } 
     else if (findMultiplesOfThree === 0) {
-    let stampNumber = console.log('Fizz') 
+        stampNumber = 'Fizz'
     } 
     else {
-        let stampNumber = console.log(number)
+        stampNumber = number
     }
     
+    const divDOMElement = document.getElementById('main-content')
+    const squareDOMElement = document.createElement('div')
+    squareDOMElement.classList.add('square')
+    squareDOMElement.innerHTML = stampNumber
+
+
+    divDOMElement.append(squareDOMElement)
+
 
 }
+
+
 
 
 
