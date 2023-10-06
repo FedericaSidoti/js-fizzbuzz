@@ -39,7 +39,7 @@ for (let i = 0; i < 100; i++) {
         squareDOMElement.classList.add('square-lilac')
     }
     else if (colorSquare === 2) {
-        squareDOMElement.classList.add('square-lilac')
+        squareDOMElement.classList.add('square-orchid')
     }
     
     divDOMElement.append(squareDOMElement)
