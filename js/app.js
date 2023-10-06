@@ -42,10 +42,11 @@ for (let i = 0; i < 100; i++) {
         squareDOMElement.classList.add('square-lilac')
     }
     
+    divDOMElement.append(squareDOMElement)
     squareDOMElement.innerHTML = stampNumber
 
 
-    divDOMElement.append(squareDOMElement)
+    
 
 
 }

@@ -1,9 +1,30 @@
+body {
+    background-image: url(../img/landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-container {
+    background-image: url(../img/grass.png);
+    background-size: cover;
+    padding: 20px 30px 0px 30px; 
+    color: purple;
+    font-weight: bolder;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0 ; 
+}
+
 .grid-custom {
     display: grid;
     gap: 10px;
-	grid-template-columns: repeat(8, 1fr);
+	grid-template-columns: repeat(10, 1fr);
     background-color: bisque;
-    padding: 50px; 
+    padding: 10px; 
+    opacity: 0.85; 
 }
 
 .square {
@@ -13,16 +34,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: bisque;
+    background-image: url(../img/flowers.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .square-purple {
     background-color: purple;
+    background-image: url(../img/bee.png);
 }
 
 .square-orchid {
     background-color: darkorchid;
+    background-image: url(../img/butterflies.png);
 }
 
 .square-lilac {
-    background-color: rgb(63, 45, 80);
+    background-color: #5E2BC4;
+    background-image: url(../img/berries.webp);
 }
