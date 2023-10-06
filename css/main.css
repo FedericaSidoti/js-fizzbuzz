@@ -35,24 +35,36 @@ body {
     align-items: center;
     justify-content: center;
     color: bisque;
-    background-image: url(../img/flowers.png);
     background-size: contain;
     background-repeat: no-repeat;
     font-size: 20px;
     font-weight: bold;
 }
 
+.square:hover {
+background-image: url(../img/flowers.png);
+}
+
 .square-purple {
     background-color: purple;
+}
+
+.square-purple:hover {
     background-image: url(../img/bee.png);
 }
 
 .square-orchid {
     background-color: darkorchid;
+}
+
+.square-orchid:hover {
     background-image: url(../img/butterflies.png);
 }
 
 .square-lilac {
     background-color: #5E2BC4;
+}
+
+.square-lilac:hover {
     background-image: url(../img/berries.webp);
 }
